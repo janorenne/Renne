@@ -1,1 +1,4 @@
+[env:custom_build]
 extends = env:esp32dev
+build_flags = ${env:esp32dev.build_flags} ${common.debug_flags} -D WLED_DISABLE_OTA -D LOLIN_WIFI_FIX -D LEDPIN=6 -D RGB_ROTARY_ENCODER -D USERMOD_PWM_OUTPUTS
+lib_deps = 
