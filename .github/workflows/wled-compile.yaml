@@ -1,2 +1,1 @@
-[env:custom_build]
 extends = env:esp32dev
